@@ -1,4 +1,4 @@
-# Routr  VoIP Proxy PHP SDK
+# Routr Proxy PHP SDK
 
 ## Overview
 
