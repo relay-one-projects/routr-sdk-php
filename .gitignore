@@ -1,0 +1,13 @@
+/vendor/
+/node_modules/
+/build/
+/dist/
+/coverage/
+.phpunit.result.cache
+composer.lock
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+

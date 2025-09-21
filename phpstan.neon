@@ -1,0 +1,14 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    excludePaths:
+        - vendor
+        - src/Grpc
+    ignoreErrors:
+        - '#Access to an undefined property object::\$details#'
+        - '#Cannot call method getNextPageToken\(\) on class-string\|object#'
+        - '#Trying to invoke array\{object, string\} but it might not be a callable#'
+        - '#Parameter.*\$var of method.*::setItems\(\) expects#'
+        - '#Offset.*next_page_token.*does not exist on array#'

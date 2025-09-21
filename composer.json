@@ -1,0 +1,57 @@
+{
+  "name": "routr/sdk-php",
+  "description": "PHP SDK for Routr SIP Proxy",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Routr Team",
+      "email": "dev@routr.io"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-grpc": "*",
+    "google/protobuf": "^3.25",
+    "grpc/grpc": "^1.74",
+    "spiral/grpc-client": "^1.0@RC",
+    "spiral/roadrunner": "^2.0",
+    "spiral/roadrunner-cli": "^2.7",
+    "spiral/roadrunner-grpc": "^2.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^10.0",
+    "squizlabs/php_codesniffer": "^3.7",
+    "symfony/var-dumper": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Routr\\SDK\\": "src/",
+      "Fonoster\\Routr\\Connect\\": "src/Grpc/Fonoster/Routr/Connect",
+      "GPBMetadata\\": "src/Grpc/GPBMetadata"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Routr\\SDK\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "test-coverage": "phpunit --coverage-html coverage",
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf",
+    "stan": "phpstan analyse",
+    "generate-proto": "buf generate"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
+
