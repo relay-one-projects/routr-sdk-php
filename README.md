@@ -617,24 +617,4 @@ Enable debug logs:
 export GRPC_VERBOSITY=DEBUG
 export GRPC_TRACE=all
 ```
-
-## Contributing
-
-1. Fork [fonoster/routr](https://github.com/fonoster/routr).
-2. Install: `composer install`.
-3. Add tests in `tests/`.
-4. Run `composer test` and `composer stan`.
-5. Submit PR with clear description.
-
-## License
-
-MIT License. See [LICENSE](LICENSE).
-
-## Support
-
-- Docs: [routr.io/docs](https://routr.io/docs)
-- Buf Docs: [buf.build/docs](https://buf.build/docs)
-- Issues: [GitHub Issues](https://github.com/fonoster/routr/issues)
-- Community: [Fonoster Discord](https://discord.gg/fonoster)
-
 Explore `examples/` for more usage scenarios. Build powerful VoIP solutions with Routr and Buf!
