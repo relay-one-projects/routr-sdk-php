@@ -1,12 +1,12 @@
 {
-  "name": "routr/sdk-php",
+  "name": "relay-one/routr-php-sdk",
   "description": "PHP SDK for Routr SIP Proxy",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Routr Team",
-      "email": "dev@routr.io"
+      "name": "Yeimar Yecid Lemus",
+      "email": "yeimar112003@outlook.com"
     }
   ],
   "require": {
